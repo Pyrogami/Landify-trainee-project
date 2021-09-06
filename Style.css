@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.first-bg{
+    background-size: 100%;
+    background-image: url(sourceFiles/Background/Background.svg);
+    background-repeat: no-repeat;
+    border: solid 1px rgba(255, 255, 255, 0);
+}
+
+/* Navigation bar beginning */
+nav {
+    margin: 20px 150px;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+
+}
+
+.logo-imgs {
+    padding-right: 0;
+}
+
+.nav-list {
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 7px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav-list li {
+    display: inline;
+    margin-left: 2em;
+}
+
+.store-logos{
+    padding-left: 3em;
+}
+
+.dropdown{
+    padding-top: 8px;
+}
+/* Navigation bar end */
+
+/*Header beginning */
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+.title-and-button{
+    padding-top: 15%;
+}
+
+.title-and-button h1{
+    font-family: "Inter", sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 98px;
+}
+
+.title-and-button button{
+    background-color: rgba(140, 48, 245, 1);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 32px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 32px;
+}
+
+.iphoneX1{
+    padding-top: 7%;
+}
+/* Header end*/
